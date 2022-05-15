@@ -10,11 +10,11 @@ El sistema de Inteligencia Artificial es capaz de predecir si el animal en la im
 Despliegue realizado en Azure Static Web App
 
 ## Tecnologías usadas
-Azure Machine Learning
-VueJs
-Javascript
-HTML
-CSS
+- Azure Machine Learning
+- VueJs
+- Javascript
+- HTML
+- CSS
 
 ## Cómo desplegar el proyecto en tu computadora local
 1. Descargarel reposotio
