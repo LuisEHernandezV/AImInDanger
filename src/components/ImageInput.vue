@@ -1,13 +1,20 @@
 <template>
 
 <div class="imageInput">
-    <h2>Analizador de Animales</h2>
+    
 
+    <div class="mensajeInicial">
+        <h2>AI'm in Danger?</h2>
+        <p>Te ayuda a identificar a los animales marinos en peligro de extinción mediante una imagen y te mostrará información relevante de ellos.</p> 
+        <p>¡Ayúdanos a protegerlos! </p>
+    </div>
+
+    <h2>Analizador de Animales Marinos</h2>
     <label>Selecciona una imagen</label>
 
     <div>
         <input type="file" @change="$store.dispatch('previewFile')" id="inputImagen" accept="image/jpeg, image/png, image/jpg"><br>
-        <img src="" height="200" alt="Image preview..." id="imagenImg">
+        <img src="" height="200" alt=" " id="imagenImg">
     </div>
    
     <!-- <div>
@@ -22,17 +29,17 @@
     <router-link to="/results">
     <button class="uploadButton" @click="$store.commit('botonLocal')">
         <span class="uploadText">Upload Image</span>
-        <span class="uploadIcon"><img src="../assets/cloud-upload.svg" alt="upload-icon" width="25" height="25"></span>
+        <span class="uploadIcon"><img src="../assets/photo-icon-w.svg" alt="upload-icon" width="25" height="25"></span>
     </button>
     </router-link>
 
 
-    <label>Introduza el URL de la Imagen</label>
+    <label>o Introduza el URL de la Imagen</label>
     <input type="url" id="linkImageUpload" v-model="$store.state.photoLink" class="linkImageUpload">
     <router-link to="/results">
     <button class="cloudUploadButton" @click="$store.commit('botonLink')">
         <span class="uploadText">Upload Link</span>
-        <span class="uploadIcon"><img src="../assets/cloud-upload.svg" alt="upload-icon" width="25" height="25"></span>
+        <span class="uploadIcon"><img src="../assets/link-icon-w.svg" alt="upload-icon" width="25" height="25"></span>
     </button>
     </router-link>
 

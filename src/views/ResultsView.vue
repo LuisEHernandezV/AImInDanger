@@ -38,19 +38,20 @@ export default {
 
 .AIResults .contenedorImagen{
   display: flex;
-  width: 500px;
-  height: min-content;
+  width: 400px;
+  height: 300px;
+  object-fit: contain;
 }
 
 .AIResults .contenedorImagen .display_image{
     display: flex;
+    width: 370px;
+    height: 300px;
     flex-direction: column;
-    height: 400px;
-    width: 400px;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-
+    padding-right: 15px;
   }
 
   .contenedorInfo{
@@ -88,6 +89,10 @@ export default {
 
 /* Responsive Design */
   @media screen and (max-width:800px){
+
+    .contenedorImagen {
+      height: 200px;
+    }
     .contenedorInfo{
       padding-top: 15px;
     }

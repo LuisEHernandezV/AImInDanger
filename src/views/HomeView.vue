@@ -39,6 +39,9 @@ export default {
     margin: 0;
     padding: 0;
   }
+  .home h2{
+    font-size:larger;
+  }
 
   
 
@@ -92,12 +95,21 @@ export default {
     color: white;
     font-size: .8rem;
   }
-
+  
   .home, .about, .resultsPage{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
+  }
+
+  .home .mensajeInicial{
+    width: 570px;
+    padding-bottom: 20px;
+  }
+
+  .mensajeInicial p + p{
+    margin-top: 1.5em;
   }
 
   .home .imageInput{
@@ -113,6 +125,8 @@ export default {
 
   .home .imageInput input{
     color:none;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .home .imageInput label{
@@ -137,7 +151,7 @@ export default {
     color: white;
     cursor: pointer;
     height: 30px;
-    width: 160px;
+    width: 155px;
     border-radius: .35rem;
     margin-left: auto;
     margin-right: auto;
@@ -159,11 +173,11 @@ export default {
     color: white;
     cursor: pointer;
     height: 30px;
-    width: 140px;
+    width: 135px;
     border-radius: .35rem;
     margin-left: auto;
     margin-right: auto;
-    gap: 5px;
+    gap: 3px;
     padding: 7px;
   }
 
@@ -190,6 +204,19 @@ export default {
     display: flex;
     flex-direction: column;
     
+  }
+
+  /* Responsive Design */
+  @media screen and (max-width:700px){
+    .home .mensajeInicial{
+      width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .mensajeInicial p + p{
+      margin-top: 0.5em;
+    }
   }
 
 
