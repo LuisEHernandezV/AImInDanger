@@ -8,7 +8,7 @@ endPoint = "https://imindanger.cognitiveservices.azure.com/"
 projectId = "e05b82af-323e-4934-ad68-2373977e794c"
 iterationName = "Iteration1"
 
-predictionCredentials = ApiKeyCredentials(in_headers={'Prediction-Key': predictionKey})
+predictionCredentials = ApiKceyCredentials(in_headers={'Prediction-Key': predictionKey})
 predictor = CustomVisionPredictionClient(endPoint, predictionCredentials)
 print (predictor)
 
