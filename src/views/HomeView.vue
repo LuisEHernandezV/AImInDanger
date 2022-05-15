@@ -112,6 +112,15 @@ export default {
     margin-top: 1.5em;
   }
 
+  .letritas{
+    font-size:x-small;
+    color: #2c3e50;
+  }
+
+  .home img {
+    text-indent: -10000px
+  }
+
   .home .imageInput{
     display: flex;
     flex-direction: column;
