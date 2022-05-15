@@ -4,10 +4,14 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "server": "node ./lib/server.js"
   },
   "dependencies": {
+    "@azure/cognitiveservices-customvision-prediction": "^5.1.2",
+    "@azure/cognitiveservices-customvision-training": "^5.2.0",
     "core-js": "^3.8.3",
+    "express": "^4.18.1",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3",
     "vuex": "^4.0.0"
@@ -16,6 +20,20 @@
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-router": "~5.0.0",
     "@vue/cli-plugin-vuex": "~5.0.0",
-    "@vue/cli-service": "~5.0.0"
-  }
+    "@vue/cli-service": "~5.0.0",
+    "jest": "^28.1.0"
+  },
+  "description": "Proyecto Hackathon Launch X - Mayo 2022",
+  "main": "babel.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HectorGbravo/AImInDanger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HectorGbravo/AImInDanger/issues"
+  },
+  "homepage": "https://github.com/HectorGbravo/AImInDanger#readme"
 }
