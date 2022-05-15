@@ -8,6 +8,8 @@
     "server": "node ./lib/server.js"
   },
   "dependencies": {
+    "@azure/cognitiveservices-customvision-prediction": "^5.1.2",
+    "@azure/cognitiveservices-customvision-training": "^5.2.0",
     "core-js": "^3.8.3",
     "express": "^4.18.1",
     "vue": "^3.2.13",
