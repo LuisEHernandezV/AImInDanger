@@ -1,4 +1,5 @@
 import { createStore } from 'vuex'
+//Importar el JSON con la Base de Datos temporal
 import AnimalsJ from "/server/data/dbIamInDanger.json"
 
 export default createStore({
@@ -6,7 +7,7 @@ export default createStore({
     animalsDB: AnimalsJ,
     image_input: document.getElementById("image_input"),
     photoLink:"",
-    uploaded_image: "",
+    uploaded_imageURL: "",
     nombreAPI:"",
     resultadoAPI:0,
     clickedButton:0,
@@ -14,8 +15,8 @@ export default createStore({
     animalIndex:null,
   },
   getters: {
-    getUploadedImage(state){return state.uploaded_image},
     photoLink(state){return state.photoLink},
+    uploaded_imageURL(state){return state.uploaded_imageURL},
    
   },
   mutations: {
@@ -28,10 +29,25 @@ export default createStore({
     botonLink(state){
       state.clickedButton=2;
     },
+    uploaded_imageURL(state, ruta){
+      //Guarda la ruta de la imagen
+      state.uploaded_imageURL = ruta;
+    },
+    animalIndex(state,nombre){
+      //Estatus inical animal no en la lista
+      state.animalIndex = -1
+      for(let i=0;i<state.animalsDB.length;i++){
+        if(state.animalsDB[i].animalInDanger===nombre){
+          //Si el animal está en la lista, guardar su index
+          state.animalIndex = i
+        }
+      }
+    },
     
-    pullAnimalData(state, id){
+    pullAnimalData(state){
       //Datos del JSON
-      if(id>0){
+      var id = state.animalIndex
+      if(state.animalIndex >=0){
         state.animal.push({
           especie: state.animalsDB[id].animalInDanger,
           nombreCientifico:state.animalsDB[id].animalSciName,
@@ -52,16 +68,19 @@ export default createStore({
     
   },
   actions: {
-    async AIResults(state){
+    async AIResults({commit}){
       var id =6
       let url = `https://pokeapi.co/api/v2/pokemon/${id}`
       const rest = await fetch(url)
       const results = await rest.json();
       //Dispatch Crear method 
       console.log(results)
+      //Entrada del nombre Resultado del AI
+      commit("animalIndex","tortuga marina")
       this.dispatch("showResults")
     },
     createCardPhoto({commit}){
+      //Crecion del Div para desplegar imagen local
       const contenedor = document.getElementById("contenedorImagen")
       const card = document.createElement("div")
       card.classList.add("display_image") //añade class
@@ -71,9 +90,11 @@ export default createStore({
       //Seleccionar fuente dependiendo del boton clickeado
       switch(this.state.clickedButton){
         case 1:
+          //Imagen Local - asignación de la ruta
+          imagen.src = this.state.uploaded_imageURL
         break;
         case 2:
-        imagen.src= this.getters.photoLink
+          imagen.src= this.getters.photoLink
         break;
       }
     },
@@ -81,9 +102,12 @@ export default createStore({
     showResults({commit}){
       //Desplegar imagen e Info del animal
       this.dispatch("createCardPhoto")
-      commit('pullAnimalData',0)
+      commit('pullAnimalData')
       this.dispatch("createCardInfo")
     },
+    
+
+  
 
     createCardInfo(state){
       //Si el animal está en la base de datos, imprimir información
@@ -157,7 +181,25 @@ export default createStore({
         label2.classList.add("resultPositivo")
         label2.textContent = "Esta especie no está en nuestra base de datos"
       }
+    },
+
+    previewFile({commit}) {
+      const preview = document.getElementById("imagenImg");
+      const file = document.getElementById("inputImagen").files[0];
+      const reader = new FileReader();
+      reader.addEventListener("load", function () {
+          // convierte la imagen a una cadena en base64
+          preview.src = reader.result;
+          //Guarga la ruta de la imagen en el State 
+          commit("uploaded_imageURL",preview.src) ;
+      }, false);
+      if (file) {
+          reader.readAsDataURL(file);
+      }
     }
+
+    
+    
 
 
   },
