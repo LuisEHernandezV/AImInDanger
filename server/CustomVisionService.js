@@ -16,7 +16,9 @@ let predictionKeyVar = 'd7b31da25374446984bc954ef90fd056';
 // This is referenced from the root of the repo.
 const sampleDataRoot = "src/assets/images";
 
-const predictionKey = process.env[predictionKeyVar];
+//const predictionKey = process.env[predictionKeyVar];
+const predictionKey = predictionKeyVar;
+console.log(predictionKey)
 // Add your Custom Vision endpoint to your environment variables.
 const endPoint = 'https://imindanger.cognitiveservices.azure.com';
 
