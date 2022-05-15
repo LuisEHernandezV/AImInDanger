@@ -46,7 +46,7 @@
 <script>
 //Install avios
 //npm install --save axios
-import axios from "axios";
+
 
 export default { name: 'ImageInput',
 data(){
@@ -60,17 +60,7 @@ methods:{
         this.selectedFile = event.target.files[0]
         console.log(event)
     },
-    onUpload(){
-        //Sends FormData using Axios
-        const fd = new FormData();
-        //add new data to fd
-        fd.append("image",this.selectedFile,this.selectedFile.name)
-        url=""
-        axios.post(url,fd)
-            .then(res =>{
-                console.log(res)
-            })
-    },
+    
     previewFile() {
         const preview = document.getElementById("output");
         const file = document.getElementById("inputImagen").files[0];
