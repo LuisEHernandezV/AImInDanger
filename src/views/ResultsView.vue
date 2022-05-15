@@ -90,11 +90,14 @@ export default {
 /* Responsive Design */
   @media screen and (max-width:800px){
 
-    .contenedorImagen {
-      height: 200px;
+    .contenedorImagen img{
+      padding-top: 10px;
+      width: 350px;
+      height: 320px;
     }
     .contenedorInfo{
       padding-top: 15px;
+      width: 400px;
     }
 
     p + p{

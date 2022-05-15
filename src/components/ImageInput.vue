@@ -15,7 +15,7 @@
     <div>
         <input type="file" @change="$store.dispatch('previewFile')" id="inputImagen" accept="image/jpeg, image/png, image/jpg"><br>
         <p class="letritas">*Tamaño límite de 4 MB</p>
-        <img src="none" height="200" alt=" " id="imagenImg" >
+        <img src="../assets/emtpyImage.svg" height="1px" alt=" " id="imagenImg" >
     </div>
    
     <!-- <div>

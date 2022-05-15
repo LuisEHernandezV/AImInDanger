@@ -190,6 +190,7 @@ export default createStore({
       reader.addEventListener("load", function () {
           // convierte la imagen a una cadena en base64
           preview.src = reader.result;
+          preview.height=200;
           //Guarga la ruta de la imagen en el State 
           commit("uploaded_imageURL",preview.src) ;
       }, false);
