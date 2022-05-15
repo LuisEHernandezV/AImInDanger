@@ -18,7 +18,7 @@ const sampleDataRoot = "src/assets/images";
 
 const predictionKey = process.env[predictionKeyVar];
 // Add your Custom Vision endpoint to your environment variables.
-const endPoint = process.env['https://imindanger.cognitiveservices.azure.com/']
+const endPoint = 'https://imindanger.cognitiveservices.azure.com';
 
 const predictionResourceId = "/subscriptions/596277bf-9ec6-42e7-9699-1219e96ca413/resourceGroups/iamindanger/providers/Microsoft.CognitiveServices/accounts/imindanger";
 const projectId = "883de85d-286b-4ca3-80cf-cbb7af5ce0b9";
