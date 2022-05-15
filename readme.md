@@ -25,7 +25,7 @@ AI´m in danger? Surge como iniciativa para concientizar a la población sobre l
 
 • Despliegue con ayuda de Azure Websites
 
-<img src="/src/assets/screenshots/custom%20vision%20iaminDanger.gif" alt="IA" width="600"/> 
+<img src="/src/assets/screenshots/custom%20vision%20iaminDanger.gif" alt="IA" width="650"/> 
 
 
 ## Despliegue 🚀
@@ -35,9 +35,10 @@ AI´m in danger? Surge como iniciativa para concientizar a la población sobre l
 
 ![screen2](/src/assets/screenshots/program.gif)
 
-<img src="/src/assets/screenshots/mobile1.png" alt="cr" width="400"/> 
+<img src="/src/assets/screenshots/mobile1.png" alt="cr" width="400"/>     
 
 
+![Capturas de pantalla](/src/assets/screenshots)
 
 ## Cómo desplegar el proyecto en tu computadora local 🔧
 
