@@ -5,7 +5,7 @@ _Proyecto para Hack the ocean by Launch X - Mayo 2022_
 <img src="src/assets/logo3.png" alt="logo" width="150"/>    
 
 _Ya es bien conocido que en el mar conviven numerosas especies acuáticas las cuales conforman un amplio y variado ecosistema. Sin embargo, dicho ecosistema está sufriendo importantes daños, como consecuencia numerosas especies marinas se encuentren en peligro de extinción.
-I´m in danger? Surge como iniciativa para concientizar a la población sobre la importancia de la vida marina. ¿Te encuentras de vacaciones en la playa y observas especies que no conoces? ¿Explorando en la web ves imágenes de animales marinos y quieres saber más sobre ellos?  I´m in danger? Permite ayudarte a saber si esa especie se encuentra en peligro de extinción, solo necesitas tomar una foto, subir una existente o ingresar el url de una imagen para poder obtener información sobre dicha especie._
+AI´m in danger? Surge como iniciativa para concientizar a la población sobre la importancia de la vida marina. ¿Te encuentras de vacaciones en la playa y observas especies que no conoces? ¿Explorando en la web ves imágenes de animales marinos y quieres saber más sobre ellos?  AI´m in danger? Permite ayudarte a saber si esa especie se encuentra en peligro de extinción, solo necesitas tomar una foto, subir una existente o ingresar el url de una imagen para poder obtener información sobre dicha especie._
 
 <img src="/src/assets/screenshots/desk1.png" alt="screen1" width="500"/> 
 
@@ -23,7 +23,7 @@ I´m in danger? Surge como iniciativa para concientizar a la población sobre la
 
 •	Si se ingresa alguna imagen que no corresponda a las que se tiene en la IA se mostrara en pantalla un mensaje diciendo que no es una especie en peligro de extinción
 
-#### Despliegue con ayuda de Azure Websites
+• Despliegue con ayuda de Azure Websites
 
 <img src="/src/assets/screenshots/custom%20vision%20iaminDanger.gif" alt="IA" width="600"/> 
 
@@ -34,6 +34,9 @@ I´m in danger? Surge como iniciativa para concientizar a la población sobre la
 #### Despliegue realizado en Azure Static Web App
 
 ![screen2](/src/assets/screenshots/program.gif)
+
+<img src="/src/assets/screenshots/mobile1.png" alt="cr" width="400"/> 
+
 
 
 ## Cómo desplegar el proyecto en tu computadora local 🔧
