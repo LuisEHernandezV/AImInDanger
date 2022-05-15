@@ -1,6 +1,6 @@
 [
     {
-        "animalInDanger": "Ballena (azul)",
+        "animalInDanger": "ballena azul",
         "animalSciName": "Balaenoptera musculus",
         "animalFamily": "Balaenopteridae",
         "animalSize": "24m a 27m ",
@@ -14,7 +14,7 @@
         "animalCareGlobal": "Greenpeace",
     },
     {
-        "animalInDanger": "tortuga marina",
+        "animalInDanger": "Tortuga marina",
         "animalSciName": "Chelonia mydas",
         "animalFamily": "Cheloniidae",
         "animalSize": "hasta 1.66 m",
@@ -28,7 +28,7 @@
         "animalCareGlobal": "WWF (Fondo Mundial para la Naturaleza)"
     },
     {
-        "animalInDanger": "tiburón blanco",
+        "animalInDanger": "Tiburon blanco",
         "animalSciName": "Carcharodon carcharias",
         "animalFamily": "Lamnidae",
         "animalSize": "5m a 6.4m",
@@ -42,7 +42,7 @@
         "animalCareGlobal": "Fundacion CRAM"
     },
     {
-        "animalInDanger": "vaquita marina",
+        "animalInDanger": "Vaquita marina",
         "animalSciName": "Phocoena sinus",
         "animalFamily": "Phocoenidae",
         "animalSize": "1.4m a 1.5m",
@@ -56,7 +56,7 @@
         "animalCareGlobal": "Sea Shepherd"
     },
     {
-        "animalInDanger": "delfín de Héctor",
+        "animalInDanger": "Delfin de Hector",
         "animalSciName": "Cephalorhynchus hectori",
         "animalFamily": "Delphinidae",
         "animalSize": "1.2m a 1.6m",
