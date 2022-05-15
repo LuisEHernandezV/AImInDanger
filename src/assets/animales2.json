@@ -1,0 +1,9 @@
+[
+ {"id": 1, "Especie": "Ballena (azul)", "NombreCientifico":"Balaenoptera musculus"},
+ {"id": 2, "Especie": "tortuga (tortuga verde)", "NombreCientifico":"Chelonia mydas"},
+ {"id": 3, "Especie": "tiburón blanco", "NombreCientifico":"Carcharodon carcharias"},
+ {"id": 4, "Especie": "vaquita marina", "NombreCientifico":"Phocoena sinus"},
+ {"id": 5, "Especie": "delfín (de cabeza blanca)", "NombreCientifico":"Cephalorhynchus hectori"}
+]
+
+    

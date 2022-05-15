@@ -1,0 +1,111 @@
+
+{
+    "Especie":[
+        {
+        "Animal1":"Ballena (azul)",
+        "Animal2":"tortuga (tortuga verde)",
+        "Animal3":"tiburón blanco",
+        "Animal4":"vaquita marina",
+        "Animal5":"delfín (de cabeza blanca)"
+        }
+    ],
+    "NombreCientifico":[
+        {
+        "NombreCientificoAnimal1":"Balaenoptera musculus",
+        "NombreCientificoAnimal2":"Chelonia mydas",
+        "NombreCientificoAnimal3":"Carcharodon carcharias",
+        "NombreCientificoAnimal4":"Phocoena sinus",
+        "NombreCientificoAnimal5":"Cephalorhynchus hectori"
+        }
+    ],
+    "Familia":[
+        {
+        "FamiliaAnimal1":"Balaenopteridae",
+        "FamiliaAnimal2":"Cheloniidae",
+        "FamiliaAnimal3":"Lamnidae",
+        "FamiliaAnimal4":"Phocoenidae",
+        "FamiliaAnimal5":"Delphinidae"
+        }
+    ],
+    "Longitud":[
+        {
+        "LongitudAnimal1":"24m a 27m ",
+        "LongitudAnimal2":"hasta 1.66 m",
+        "LongitudAnimal3":"5m a 6.4m",
+        "LongitudAnimal4":"1.4m a 1.5m",
+        "LongitudAnimal5":"1.2m a 1.6m"
+        }   
+    ],
+    "Peso":[
+        {
+        "PesoAnimal1":"100t - 120t",
+        "PesoAnimal2":"hasta 200 kg",
+        "PesoAnimal3":"hasta 1.9 t",
+        "PesoAnimal4":"Hasta 55kg",
+        "PesoAnimal5":"40kg - 60kg"
+        }
+    ],
+    "Habitad":[
+        {
+        "HabitadAnimal1":"Puede ser avistada desde el ecuador hasta el borde de los hielos en ambos hemisferios",
+        "HabitadAnimal2":"Océanos tropicales y subtropicales de todo el mundo",
+        "HabitadAnimal3":"Aguas cálidas y templadas de casi todos los océanos",
+        "HabitadAnimal4":"Norte del Golfo de California",
+        "HabitadAnimal5":"Regiones costeras de Nueva Zelanda"
+        }
+    ],
+    "Alimentacion":[
+        {
+        "AlimentacionAniaml1":"Pequeños crustáceos conocidos como kril",
+        "AlimentacionAnimal2":"Varias especies de pasto marino y macroalga, medusas y larvas de crustáceos pequeños",
+        "AlimentacionAnimal3":"Atún rojo, tortugas marinas, pingüinos, rayas, delfines, marsopas, zifios, cetáceos, focas, lobos y leones marinos.",
+        "AlimentacionAnimal4":"Calamares y pequeños peces como pez sapo, la anchoa, camarones, etc.",
+        "AlimentacionAnimal5":"Crustáceos y pequeños peces del fondo del mar"
+    }
+    ],
+    "Poblacion":[
+        {
+        "PobalcionAnimal1":"Entre 10000 y 25000 ejemplares",
+        "PoblacionAnimal2":"Población estimada en 203000 ejemplares",
+        "PoblacionAnimal3":"Menos de 3500 ejemplares",
+        "PoblacionAnimal4":"Menos de 22 ejemplares",
+        "PoblacionAnimal5":"55 ejemplares"
+        }
+    ],
+    "Depredadores":[ 
+        {
+        "DepredadorAnimal1":"Orcas y Tiburones",
+        "DepredadorAnimal2":"Tiburones",
+        "DepredadorAnimal3":"Orcas, cocodrilos de agua salada, otras especies de tiburón como tiburón tigre y tiburón toro",
+        "DepredadorAnimal4":"Orcas y tiburones",
+        "DepredadorAnimal5":"Orcas y tiburones"
+        }
+    ],
+    "Causas de amenaza":[
+        {
+        "CausasDeAmenazaAnimal1":"La caza, las redes de pesca y la industria (colisiones con buques, la contaminación y el desarrollo de petróleo y gas) y el cambio climático",
+        "CausasDeAmenazaAnimal2":"Caza por su carne, adornos y productos cosméticos, el saqueo de sus nidos en busca de los huevos, la ingesta de residuos sólidos y las redes pesqueras",
+        "CausasDeAmenazaAnimal3":"La pesca comercial y deportiva, la captura para su cría en pesquerías y para la exposición en acuarios, degradación de los ecosistemas costeros que utilizan como hábitat reproductivo",
+        "CausasDeAmenazaAnimal4":"Captura incidental, aumento de la actividad pesquera y limitada tasa de crecimiento poblacional",
+        "CausasDeAmenazaAnimal5":"Captura accidental, heridas causadas por barcos, contaminación del medio, modificación del hábitat"
+    }
+    ],
+    "Grupo1":[
+        {
+        "GrupoAyuda1Animal1":"Instituto de Conservacion de las ballenas",
+        "GrupoAyuda1Animal2":"Centro Mexicano de la Tortuga",
+        "GrupoAyuda1Animal3":"SEMARNAT (Secretaria de Medio Ambiente y Recursos Naturales)",
+        "GrupoAyuda1Animal4":"INECOL (Instituto de Ecologia)",
+        "GrupoAyuda1Animal5":"SEMARNAT (Secretaria de Medio Ambiente y Recursos Naturales)"
+    }
+    ],
+    "Grupo2":[{
+        "GrupoAyuda2Animal1":"Greenpeace",
+        "GrupoAyuda2Animal2":"WWF (Fondo Mundial para la Naturaleza)",
+        "GrupoAyuda2Animal3":"Fundacion CRAM",
+        "GrupoAyuda2Animal4":"Sea Shepherd",
+        "GrupoAyuda2Animal5":"Fundacion CRAM"
+    }
+    ]
+}
+
