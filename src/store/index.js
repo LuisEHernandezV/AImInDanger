@@ -76,7 +76,7 @@ export default createStore({
       //Dispatch Crear method 
       console.log(results)
       //Entrada del nombre Resultado del AI
-      commit("animalIndex","tortuga marina")
+      commit("animalIndex","Tortuga marina")
       this.dispatch("showResults")
     },
     createCardPhoto({commit}){
