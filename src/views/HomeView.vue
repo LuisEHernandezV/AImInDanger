@@ -73,26 +73,62 @@ export default {
     color: #2c3e50;
   }
 
-  footer{
+
+  /*ANIMACIÓN FOOTER*/
+  footer {  
+    background-image: url("https://webdevtrick.com/wp-content/uploads/water-wave-blue.png");
+    -moz-background-clip:content-box;
+    -o-background-clip: content-box;
+    -webkit-background-clip: content-box;
+    background-clip: content-box;
+    background-color: burlywood;
+    color:#42b983;
+    text-shadow: 0px 0px rgba(255, 255, 255, 0.06);
+    animation: wave-animation 1s infinite linear, loading-animation 10s infinite linear alternate;
+    background-size: 200px 100px;
+    background-repeat: repeat-x;
+    opacity: 1;
+
     display: flex;
     justify-content:space-around;
-    background-color:#03045e;
-    height: px;
-    color: white;
+    color: #4244b9;
     padding: 10px 10px 10px 10px;
   }
+  
+  @keyframes wave-animation {
+    0% {
+      background-position: 0 bottom;
+    }
+    100% {
+      background-position: 200px bottom;
+    }
+  }
+  
+  @keyframes loading-animation {
+    0% {
+      background-size: 200px 0px;
+    }
+    100% {
+      background-size: 200px 200px;
+    }
+  }
+  /*TERMINA ANIMACIÓN*/
 
   footer p{
     font-size: .8rem;
   }
 
+  footer img{
+    filter: grayscale(200%);
+  }
+
   footer ul{
     list-style-type: none;
+    text-align: center;
   }
 
   footer a{
     text-decoration: none; 
-    color: white;
     font-size: .8rem;
   }
   
