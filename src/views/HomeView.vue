@@ -131,6 +131,17 @@ export default {
     text-decoration: none; 
     font-size: .8rem;
   }
+
+
+  .Otrasorg ul{
+    font-weight: 600;
+    color:#023e8a
+  }
+
+  .Otrasorg a{
+    font-weight: 600;
+    color:#023e8a;
+  }
   
   .home, .about, .resultsPage{
     display: flex;

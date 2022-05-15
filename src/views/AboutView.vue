@@ -123,7 +123,6 @@ export default {
   color:black;
   background-position: center center;
   background-repeat: no-repeat;
-  padding-right: 20px;
 }
 
 .seccion2{
@@ -136,9 +135,6 @@ export default {
   color:black;
   background-position: center center;
   background-repeat: no-repeat;
-  padding-top: 0px;
-  padding-right: 0px;
-  padding-bottom: 0px;
 }
 
 /* Responsive Design */
